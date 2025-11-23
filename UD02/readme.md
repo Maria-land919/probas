@@ -7,19 +7,23 @@
 ## Unidade 2
 
 [Unidade 2](/UD02/harwdware.md)
+<!--markdownlint-disable MD033-->
 <br>
 
+<!--markdownlint-disable MD033-->
 [Unidade 2 Conversiones](/UD02/conversiones.md)
 
 ## Unidade 3
- 
-```js
+
+```javascript
 let x = 0;
 let y= 2;
 let z= x +y; // Total 2
 
 ```
+
 ```mermaid
+
 flowchart TD
     A['Configurar usuario en Git']
     B['git config --global user.name TuNombre']
@@ -45,8 +49,8 @@ flowchart TD
 
     A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> J2 --> K --> L --> M --> N --> O --> P
 ```
-#### Cuando usar git push origin main?
 
+ **Cuando usar git push origin main ?**
 
 * Después de hacer un commit en local Cada vez que confirmas cambios con git commit -m "mensaje", esos cambios solo están en tu repositorio local. Para que aparezcan en GitHub, necesitas hacer git push origin main.
 
